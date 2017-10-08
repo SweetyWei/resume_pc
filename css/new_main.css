@@ -1,0 +1,295 @@
+
+/*公共部分样式设置*/
+html,body{
+	/*overflow:hidden;*/
+	background:pink;
+}
+html,body,div,ul,li,dl,dt,dd,ol,p,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+}
+img{
+	vertical:middle;
+}
+
+li{
+	list-style:none;
+}
+
+a,s{
+	text-decoration:none;
+}
+
+#bg-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    margin: 0;
+    background-size: cover;
+}
+
+#bg-img img{
+	width:100%;
+	height:100%;
+}
+
+#main-content{
+	width:1276px;
+	height:600px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-623px;
+	margin-top:-300px;
+}
+/*左侧部分样式设置*/
+#left{
+	width:300px;
+	height:600px;
+	background:#ff4343;
+	float:left;
+}
+
+#l_top{
+	width:100%;
+	height:200px;
+	background:#ff4343;
+}
+
+#profile-img{
+	width:170px;
+	height:170px;
+	border:1px solid transparent;
+	background:#ff6f69;
+	border-radius:85px;
+	margin:30px auto 0;
+}
+
+#profile-img img{
+	width:150px;
+	height:150px;
+	display:block;
+	border-radius:75px;
+	margin:9px auto;
+}
+
+
+
+#l_bot{
+	width:100%;
+	height:400px;
+	background:#ff4343;
+}
+
+#profile-top{
+	text-align:center;
+}
+
+#profile-mid{
+	padding-top:15px;
+	text-align:left;
+	font-size:16px;
+	line-height:20px;
+}
+
+#profile-top,#profile-mid,#profile-bot{
+	color:#ddd;
+}
+
+/*中间部分的样式设置*/
+
+#mid{
+	width:870px;
+	/*height:600px;*/
+	/*background:yellowgreen;*/
+	float:left;
+	margin:0 15px;
+	/*width: 88%;*/
+    background: #f4f4f4;
+    height: 620px;
+    overflow: auto;
+    /*position: absolute;
+    top: 0;
+    left: 15px;*/
+			}
+			
+			
+			#mid .content{
+				width:500px;
+				height:100%;
+			}
+			
+			#mid h3{
+			    font-weight: normal;
+			    color: #ff6f69;
+			    height: 50px;
+			    width: 100%;
+			    padding-left: 100px;
+			    border-bottom: 1px solid #ddd;
+			    line-height: 50px;
+			    font-size:24px;
+			    margin-top:20px;
+			    margin-bottom:10px;
+			}
+			
+			#mid span {
+			    display: block;
+			    font-size: 22px;
+			    color: #ff4343;
+			    height: 50px;
+			    line-height: 50px;
+			    width: 100%;
+			    border-bottom: 1px solid #ddd;
+		    }
+			
+			#mid .content ul{
+				margin-top:20px;
+				font-size:16px;
+			}
+			
+			#mid .content ul li{
+				margin-left: 0px;
+			    margin-bottom: 15px;
+			    border-bottom: 1px solid #ddd;
+			    color:#ff4343;
+			    font-weight:normal;
+			    line-height:18px;
+			    padding-bottom:10px;
+			}
+			
+			#content-skill .skill-container .skill .html {
+			    width: 95%;
+			}
+			.skill-container .skill .html,.skill-container .skill .js, 
+			.skill-container .skill .css,.skill-container .skill .less, .skill-container .skill .jq, .skill-container .skill .jqm, .skill-container .skill .ext, .skill-container .skill .agl,
+.skill-container .skill .bs, .skill-container .skill .php, .skill-container .skill .http, .skill-container .skill .sql, .skill-container .skill .storm, .skill-container .skill .svn, .skill-container .skill
+.ps, 
+.skill-container .skill .axu {
+			    height: 24px;
+			    background: #ff6f69;
+			}
+			.skill-container .skill>div {
+			    margin-top: 20px;
+			    position:relative;
+			}
+			
+			.skill-container .skill s {
+			    color: #fff;
+			    display: inline-block;
+			    height: 100%;
+			    background: #ff4343;
+			    padding: 0 20px;
+			}
+			
+			.skill-container .skill i {
+			    color: #555;
+			    position: absolute;
+			    left: 485px;
+			}
+			
+			.skill-container .skill .html {
+			    width: 95%;
+			}
+			
+			.skill-container .skill .css {
+			    width: 96%;
+			}
+			
+			.skill-container .skill .js {
+			    width: 90%;
+			}
+			
+			.skill-container .skill .less {
+			    width: 85%;
+			}
+			
+			.skill-container .skill .jq {
+			    width: 80%;
+			}
+			
+			.skill-container .skill .bs {
+			    width: 60%;
+			}
+			
+			.skill-container .skill .agl {
+			    width: 40%;
+			}
+			
+			/*Jquery mobile*/
+.skill-container .skill .jqm {
+    width: 40%;
+}
+.skill-container .skill .ext {
+    width: 40%;
+}
+.skill-container .skill .agl {
+    width: 40%;
+}
+.skill-container .skill .php{
+	width: 20%;
+}
+.skill-container .skill .sql{
+	width: 20%;
+}
+.skill-container .skill .http{
+	width: 20%;
+}
+.skill-container .skill .storm{
+	width: 20%;
+}
+.skill-container .skill .svn{
+	width: 20%;
+}
+.skill-container .skill .storm{
+	width: 20%;
+}
+.skill-container .skill .ps{
+	width: 20%;
+}
+.skill-container .skill .axu{
+	width: 20%;
+}
+
+/*右侧部分的样式设置*/
+
+#right{
+	width:76px;
+	height:228px;
+	background:deepskyblue;
+	float:left;
+	/*text-align:center;*/
+}
+
+#right ul{
+	padding:0;
+}
+
+#right ul li{
+	width:76px;
+	height:76px;
+	text-align:center;
+	line-height:76px;
+}
+#right ul li:hover{
+	background:red;
+	font-size:32px;
+	color:#fff;
+}
+#icon-resume{
+	background:#fff;
+	color:red;
+	font-size:24px;
+}
+#icon-skill{
+	background:#fff;
+	color:red;
+	font-size:24px;
+}
+#icon-works{
+	background:#fff;
+	color:red;
+	font-size:24px;
+}
